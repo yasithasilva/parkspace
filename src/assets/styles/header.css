@@ -1,9 +1,10 @@
 .parent-header {
-  margin-top: 48px;
+  margin-top: 36px;
   padding: 16px;
   display: flex;
   align-items: center;
   height: 64px;
+  border-bottom: 1px solid #e8e8e8;
 }
 .backwrapper {
   margin-right: 10px;

@@ -1,12 +1,15 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 
 const Bookings = () => {
   return (
-      <div>Bookings
-          <Navbar/>
-    </div>
-  )
-}
+    <div>
+      <Header title="Bookings"></Header>
 
-export default Bookings
+      <Navbar />
+    </div>
+  );
+};
+
+export default Bookings;
