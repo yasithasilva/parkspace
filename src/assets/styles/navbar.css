@@ -1,9 +1,13 @@
-.parent {
+.parent-navbar {
   width: 100%;
   height: 90px;
   display: flex; /* Flexbox for equal width */
   /* background-color: #007bff;  */
   border-top: 1px solid #e8e8e8;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  background-color: #F5F5F5;
 }
 
 .child {
