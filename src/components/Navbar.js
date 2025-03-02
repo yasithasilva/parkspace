@@ -19,7 +19,7 @@ const NavbarIcons = () => {
 
   return (
     <nav>
-      <div className="parent">
+      <div className="parent-navbar">
         <div className="child">
           <Link to="/" className={getActiveLink("/")}>
             {location.pathname === "/" ? (

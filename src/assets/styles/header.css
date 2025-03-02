@@ -1,0 +1,18 @@
+.parent-header {
+  margin-top: 48px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+.backwrapper {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.header-navlink-back {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
