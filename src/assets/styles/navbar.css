@@ -1,0 +1,50 @@
+.parent {
+  width: 100%;
+  height: 90px;
+  display: flex; /* Flexbox for equal width */
+  /* background-color: #007bff;  */
+  border-top: 1px solid #e8e8e8;
+}
+
+.child {
+  flex: 1; /* Each child gets equal width */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+}
+
+nav a {
+  color: black;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: darkgray; /* Optional: Add hover effect for better UX */
+}
+.icon-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center;
+}
+.nav-text {
+  margin-top: 4px;
+  color: #2c2c2c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  fill: #1db954 !important; /* This allows the icon color to inherit the text color */
+}
+
+.icon {
+  fill: darkgray; /* Change icon color on hover */
+}
