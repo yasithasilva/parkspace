@@ -1,13 +1,54 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F5F5F5;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1{
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn-primary {
+  display: flex;
+  height: 64px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px !important;
+  background-color: #1db954 !important;
+}
+.full-height-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: flex-end; /* Push content to the bottom */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  padding: 16px;
+}
+.login-icon-box {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Corrected */
+  background-color: #eeeeee;
+  overflow: hidden; /* Prevents overflow */
+}
+
+.login-icon-box img {
+  width: 36px; /* Adjust as needed */
+  height: 36px; /* Adjust as needed */
+  object-fit: contain; /* Ensures the icon is properly scaled */
 }
