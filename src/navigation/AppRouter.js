@@ -23,7 +23,10 @@ const AppRouter = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<BookingInfo/>} />
+
+
+        {/* <Route path="/" element={<Home />} />
         <Route path="map" element={<Map />} />
         <Route path="bookings" element={<Bookings />} />
         <Route path="profile" element={<Profile />} />
@@ -40,7 +43,7 @@ const AppRouter = () => {
         <Route path="myvehicles" element={<MyVehicles />} />
         <Route path="subscription" element={<Subscription />} />
         <Route path="favorites" element={<Favorites />} />
-        <Route path="notifications" element={<Notifications />} />
+        <Route path="notifications" element={<Notifications />} /> */}
       </Routes>
     </Router>
   );
