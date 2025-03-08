@@ -9,8 +9,10 @@ import { ReactComponent as MapIconFilled } from "../assets/icons/nav-icons/map-t
 import { ReactComponent as BookingsIconFilled } from "../assets/icons/nav-icons/notebook-fill.svg";
 import { ReactComponent as ProfileIconFilled } from "../assets/icons/nav-icons/user-circle-fill.svg";
 import "../assets/styles/navbar.css";
+import { useNavigate } from "react-router-dom";
 
 const NavbarIcons = () => {
+ 
   const location = useLocation(); // Get the current location object
 
   const getActiveLink = (path) => {
@@ -19,9 +21,9 @@ const NavbarIcons = () => {
 
   return (
     <nav>
-      <div className="parent">
+      <div className="parent-navbar">
         <div className="child">
-          <Link to="/" className={getActiveLink("/")}>
+          <Link to="/bookings" className={getActiveLink("/")}>
             {location.pathname === "/" ? (
               <div className="icon-wrap">
                 <HomeIconFilled className="icon" />

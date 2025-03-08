@@ -18,13 +18,29 @@ import Subscription from "../screens/Subscription";
 import Favorites from "../screens/Favorites";
 import Notifications from "../screens/Notifications";
 import Splash from "../screens/Splash";
+<<<<<<< Updated upstream
+=======
+import OtpLocation from "../screens/OtpLocation";
+import BookingHistory from "../screens/BookingHistory";
+>>>>>>> Stashed changes
 
 const AppRouter = () => {
   return (
     <Router>
       <Routes>
+<<<<<<< Updated upstream
         <Route path="/" element={<Home />} />
         <Route path="map" element={<Map />} />
+=======
+        <Route path="/" element={<OtpLocation />} />
+        <Route path="home" element={<Home />} />
+        <Route path="parkinginfo" element={<ParkingInfo />} />
+        <Route path="bookinginfo" element={<BookingInfo />} />
+        <Route path="confirmbooking" element={<ConfirmBooking />} />
+        <Route path="bookingpayment" element={<BookingPayment />} />
+        <Route path="bookings" element={<BookingHistory />} />
+        {/* <Route path="map" element={<Map />} />
+>>>>>>> Stashed changes
         <Route path="bookings" element={<Bookings />} />
         <Route path="profile" element={<Profile />} />
         <Route path="splash" element={<Splash />} />
