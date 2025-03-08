@@ -18,13 +18,14 @@ import Subscription from "../screens/Subscription";
 import Favorites from "../screens/Favorites";
 import Notifications from "../screens/Notifications";
 import Splash from "../screens/Splash";
+import OtpLocation from "../screens/OtpLocation";
 
 const AppRouter = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="map" element={<Map />} />
+        <Route path="/" element={<OtpLocation />} />
+        {/* <Route path="map" element={<Map />} />
         <Route path="bookings" element={<Bookings />} />
         <Route path="profile" element={<Profile />} />
         <Route path="splash" element={<Splash />} />
@@ -40,7 +41,7 @@ const AppRouter = () => {
         <Route path="myvehicles" element={<MyVehicles />} />
         <Route path="subscription" element={<Subscription />} />
         <Route path="favorites" element={<Favorites />} />
-        <Route path="notifications" element={<Notifications />} />
+        <Route path="notifications" element={<Notifications />} /> */}
       </Routes>
     </Router>
   );
