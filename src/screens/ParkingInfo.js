@@ -1,13 +1,9 @@
-<<<<<<< Updated upstream
-import React from 'react'
-=======
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import MajesticCity from "../assets/img/majestic-city.jpeg";
 import Map from "../assets/img/map.png";
 import BackIcon from "../assets/icons/common/caret-left.svg";
 import { useNavigate } from "react-router-dom";
->>>>>>> Stashed changes
 
 const ParkingInfo = () => {
   const navigate = useNavigate();
@@ -20,9 +16,6 @@ const ParkingInfo = () => {
   )
 }
 
-<<<<<<< Updated upstream
-export default ParkingInfo
-=======
       {/* Image */}
       <img src={MajesticCity} alt="Majestic City" style={{ width: "100%", height: "200px", objectFit: "cover" }} />
 
@@ -80,4 +73,3 @@ export default ParkingInfo
 };
 
 export default ParkingInfo;
->>>>>>> Stashed changes

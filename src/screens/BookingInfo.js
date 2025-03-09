@@ -1,14 +1,3 @@
-<<<<<<< Updated upstream
-import React from 'react'
-
-const BookingInfo = () => {
-  return (
-    <div>BookingInfo</div>
-  )
-}
-
-export default BookingInfo
-=======
 import React, { useState } from "react";
 import { Box, Typography, Select, MenuItem, Button } from "@mui/material";
 import BackIcon from "../assets/icons/common/caret-left.svg";
@@ -232,4 +221,3 @@ const BookingInfo = () => {
 };
 
 export default BookingInfo;
->>>>>>> Stashed changes

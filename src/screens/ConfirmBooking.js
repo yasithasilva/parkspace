@@ -1,12 +1,8 @@
-<<<<<<< Updated upstream
-import React from 'react'
-=======
 import React from "react";
 import { Box, Typography, Button, Radio, RadioGroup, FormControlLabel } from "@mui/material";
 import BackIcon from "../assets/icons/common/caret-left.svg";
 import LocationMC from "../assets/img/locationmc.png";
 import { useNavigate } from "react-router-dom";
->>>>>>> Stashed changes
 
 const ConfirmBooking = () => {
   const navigate = useNavigate();
@@ -19,9 +15,6 @@ const ConfirmBooking = () => {
   )
 }
 
-<<<<<<< Updated upstream
-export default ConfirmBooking
-=======
       {/* Image */}
       <img src={LocationMC} alt="Location MC" style={{ width: "100%", height: "200px", objectFit: "cover" }} />
 
@@ -65,4 +58,3 @@ export default ConfirmBooking
 };
 
 export default ConfirmBooking;
->>>>>>> Stashed changes
